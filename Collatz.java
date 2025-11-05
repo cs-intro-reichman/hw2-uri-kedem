@@ -20,7 +20,7 @@ public class Collatz {
 					steps++;
 					collatz = collatz + conjecture + " ";
 				}
-				System.out.println(collatz + " (" + steps + ")");
+				System.out.println(collatz + "(" + steps + ")");
 			}
 			System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 
